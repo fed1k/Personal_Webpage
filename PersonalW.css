@@ -3,10 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media (max-width: 600px)
+@media (max-width: 600px;){
 h1 {
     flex-wrap: wrap;
 }
-.welcome-section{
+}
+#welcome-section{
+    text-align: center;
+    background: lightgrey;
+    padding-top: 45vh;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+}
+#navbar{
     position: fixed;
+    height: 40px;
 }
